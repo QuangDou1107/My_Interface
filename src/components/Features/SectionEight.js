@@ -1,62 +1,52 @@
-import { AiTwotoneFire } from "react-icons/ai";
-import iphone15Img from "../../assets/iphone15.png"
-import iphone16Img from "../../assets/iphone16.png"
-function SectionTwo() {
-    return (
-        <div className="px-14 pt-12 pb-12 bg-[#F4F5F8]">
-            <div className=" bg-white rounded-[12px]">
-                <div className="flex justify-between items-center w-full px-8 mx-2 pt-8">
-                    {/* Phần tiêu đề */}
-                    <div className="flex items-center ">
-                        <div className="text-[30px] font-bold">Deal sốc mua ngay</div>
-                        <AiTwotoneFire className="w-8 h-8 ml-2"
-                            style={{
-                                fill: "url(#fireGradient)", // Áp dụng gradient
-                            }} />
-                    </div>
-                    <svg width="0" height="0">
-                        <defs>
-                            <linearGradient id="fireGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                                <stop offset="0%" stopColor="#FF190A" /> {/* Màu đỏ cam ở trên */}
-                                <stop offset="100%" stopColor="#FFF500" /> {/* Màu vàng ở dưới */}
-                            </linearGradient>
-                        </defs>
-                    </svg>
+import iphone15Img from "../../assets/printer.png"
+import iphone16Img from "../../assets/printer1.png"
+import { LuChevronsUpDown } from "react-icons/lu";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
-                    {/* Phần thời gian */}
-                    <div className="flex items-center">
-                        <div className="text-[20px]">Chương trình kết thúc trong</div>
-                        <div className="flex items-center space-x-2 ml-4 mr-4">
-                            <div className="text-base uppercase w-[72px] h-[72px] bg-primary rounded-[12px] flex flex-col items-center justify-center text-white">
-                                15<br />ngày
+function SectionEight() {
+    return (
+        <div className="px-14 pt-6 pb-12 bg-[#F4F5F8]">
+            <div className="bg-white  rounded-[12px]">
+                <div className="p-4">
+                    {/* Phần tiêu đề */}
+                    <div className="flex">
+                        <p className="text-xl font-bold text-black mt-2 ml-9">Printer. </p>
+                        <p className="text-xl font-bold text-gray-400 pl-2 mt-2 ">Another message here</p>
+                    </div>
+
+                    {/* Phần danh sách các phiên bản */}
+                    <div className="flex items-center justify-between mt-3 ml-9">
+                        {/* Các tùy chọn phiên bản */}
+                        <div className="flex gap-4">
+                            <div className="px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
+                            Printer 1
                             </div>
-                            <div className="text-2xl">:</div>
-                            <div className="text-base uppercase w-[72px] h-[72px] bg-primary rounded-[12px] flex flex-col items-center justify-center text-white">
-                                15<br />giờ
+                            <div className="px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
+                            Printer 2
                             </div>
-                            <div className="text-2xl">:</div>
-                            <div className="text-base uppercase w-[72px] h-[72px] bg-primary rounded-[12px] flex flex-col items-center justify-center text-white">
-                                15<br />phút
+                            <div className="px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
+                            Printer 3
                             </div>
-                            <div className="text-2xl">:</div>
-                            <div className="text-base uppercase w-[72px] h-[72px] bg-primary rounded-[12px] flex flex-col items-center justify-center text-white">
-                                15<br />giây
-                            </div>
+                        </div>
+
+                        {/* Tùy chọn "Bán chạy nhất" */}
+                        <div className="mr-9 flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-[20px] text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
+                            <div>Bán chạy nhất</div>
+                            <LuChevronsUpDown className="text-gray-500 w-4 h-4" />
                         </div>
                     </div>
                 </div>
 
-
                 {/*Danh sach san pham*/}
 
-                <div className="flex mt-8 pb-8">
+                <div className="flex mt-4 pb-8 mx-3">
                     <div className="bg-white shadow-lg rounded-lg p-0 w-[304px] h-auto flex flex-col items-center relative  ml-10">
                         {/* Bán chạy */}
                         <button className="absolute left-[-20px] top-1/2 transform -translate-y-1/2 bg-[#3C3C432E] w-10 h-10 flex items-center justify-center rounded-full shadow-lg z-10 hover:bg-gray-300 transition">
-                            &#10094; 
+                            &#10094;
                         </button>
                         <p className="text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-yellow-500 text-sm font-bold absolute top-8 left-8">
-                            Bán chạy
+                            New
                         </p>
 
                         {/* Hình ảnh */}
@@ -77,7 +67,7 @@ function SectionTwo() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                            iPhone 15 Pro Max 256GB
+                        Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -89,7 +79,7 @@ function SectionTwo() {
                     <div className="bg-white shadow-lg rounded-lg p-0 w-[304px] h-auto flex flex-col items-center relative  ">
                         {/* Bán chạy */}
                         <p className="text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-yellow-500 text-sm font-bold absolute top-8 left-8">
-                            Bán chạy
+                            New
                         </p>
 
                         {/* Hình ảnh */}
@@ -110,7 +100,7 @@ function SectionTwo() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                            iPhone 15 Pro Max 256GB
+                        Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -122,7 +112,7 @@ function SectionTwo() {
                     <div className="bg-white shadow-lg rounded-lg p-0 w-[304px] h-auto flex flex-col items-center relative ">
                         {/* Bán chạy */}
                         <p className="text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-yellow-500 text-sm font-bold absolute top-8 left-8">
-                            Bán chạy
+                            New
                         </p>
 
                         {/* Hình ảnh */}
@@ -143,7 +133,7 @@ function SectionTwo() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                            iPhone 15 Pro Max 256GB
+                        Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -155,7 +145,7 @@ function SectionTwo() {
                     <div className="bg-white shadow-lg rounded-lg p-0 w-[304px] h-auto flex flex-col items-center relative">
                         {/* Bán chạy */}
                         <p className="text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-yellow-500 text-sm font-bold absolute top-8 left-8">
-                            Bán chạy
+                            New
                         </p>
 
                         {/* Hình ảnh */}
@@ -176,7 +166,7 @@ function SectionTwo() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                            iPhone 15 Pro Max 256GB
+                        Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -192,7 +182,7 @@ function SectionTwo() {
                         </button>
                         {/* Bán chạy */}
                         <p className="text-transparent bg-clip-text bg-gradient-to-b from-red-500 to-yellow-500 text-sm font-bold absolute top-8 left-8">
-                            Bán chạy
+                            New
                         </p>
 
                         {/* Hình ảnh */}
@@ -213,7 +203,7 @@ function SectionTwo() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                            iPhone 15 Pro Max 256GB
+                        Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -223,6 +213,17 @@ function SectionTwo() {
                         </div>
                     </div>
                 </div>
+                <div className="flex justify-center items-center h-full pb-5">
+                    <div className="flex items-center gap-2">
+                        <a
+                            href="#"
+                            className="text-[#00B685] text-sm font-medium hover:underline flex items-center"
+                        >
+                            Xem toàn bộ
+                        </a>
+                        <MdKeyboardDoubleArrowRight className="text-[#00B685] w-4 h-4" />
+                    </div>
+                </div>
 
 
             </div>
@@ -230,4 +231,4 @@ function SectionTwo() {
         </div>
     );
 }
-export default SectionTwo;
+export default SectionEight;

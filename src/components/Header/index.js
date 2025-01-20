@@ -1,7 +1,7 @@
 import { IoIosSearch } from "react-icons/io";
 import { CgShoppingBag } from "react-icons/cg";
 import { FaRegUserCircle } from "react-icons/fa";
-import groupImage from '../../assets/group.png';
+import groupImage from '../../assets/gggg.png';
 import { FaApple } from "react-icons/fa";
 
 function NavigationMenu() {
