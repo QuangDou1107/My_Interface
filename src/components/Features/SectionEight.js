@@ -19,13 +19,13 @@ function SectionEight() {
                         {/* Các tùy chọn phiên bản */}
                         <div className="flex gap-4">
                             <div className="px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
-                            Printer 1
+                                Printer 1
                             </div>
                             <div className="px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
-                            Printer 2
+                                Printer 2
                             </div>
                             <div className="px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 cursor-pointer hover:bg-gray-100">
-                            Printer 3
+                                Printer 3
                             </div>
                         </div>
 
@@ -67,7 +67,7 @@ function SectionEight() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                        Printer 1
+                            Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -100,7 +100,7 @@ function SectionEight() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                        Printer 1
+                            Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -133,7 +133,7 @@ function SectionEight() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                        Printer 1
+                            Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -166,7 +166,7 @@ function SectionEight() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                        Printer 1
+                            Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}
@@ -203,7 +203,7 @@ function SectionEight() {
 
                         {/* Tên sản phẩm */}
                         <p className="text-lg font-semibold text-center ">
-                        Printer 1
+                            Printer 1
                         </p>
 
                         {/* Giá sản phẩm */}

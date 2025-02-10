@@ -5,6 +5,7 @@ import { AiOutlineFileProtect } from "react-icons/ai";
 import QC1 from '../../assets/qc1.png';
 import QC2 from '../../assets/qc3.png';
 import QC3 from '../../assets/qc2.png';
+import { Link } from "react-router-dom";
 
 
 function SectionOne() {

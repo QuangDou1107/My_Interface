@@ -56,7 +56,7 @@ function SectionThree() {
                             </div>
                         </div>
 
-                        <button className="mt-5 bg-green-500 text-white text-lg font-semibold py-3 w-[350px] rounded-full hover:bg-green-600 transition-all">
+                        <button className="mt-5 bg-[#00B685]  text-white text-lg font-semibold py-3 w-[350px] rounded-full hover:bg-green-600 transition-all">
                             Mua ngay
                         </button>
 

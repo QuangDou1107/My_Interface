@@ -30,7 +30,7 @@ function NavigationMenu() {
                 </div>
                 {/* Menu chính */}
                 <ul className="flex justify-center space-x-12 font-normal mr-100px pt-2 pb-3 text-[18px]">
-                    <li><a href="/" className="hover:text-blue-400">Mac</a></li>
+                    <li><a href="/mac" className="hover:text-blue-400">Mac</a></li>
                     <li><a href="/" className="hover:text-blue-400">iPad</a></li>
                     <li><a href="/" className="hover:text-blue-400">iPhone</a></li>
                     <li><a href="/" className="hover:text-blue-400">Watch</a></li>
